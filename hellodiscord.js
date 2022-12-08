@@ -126,4 +126,4 @@ client.on("messageCreate",async (message) => {
     
 });
 
-client.login('MTAzMDYyNzMzMjQwODQ3OTc1NQ.GRnbFl.JfxhzrUS_OBMz8gwZ0dV11VnDsD8N8-ju_PTPw');
+client.login('token');
