@@ -1,0 +1,40 @@
+//"StAuth10222: I Nevin James, 000825144 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else."
+
+This bot is designed for the project can help in knowing about the weather condition using different parameters.
+It also has an additional feature to filter the geo location by city, state or country
+More tha that it also displays the best player in season and league.
+
+#Command -1 ClimateByLatitudeLongitude
+-Specification : This command gets output the climate by different parameters like latitude and longitude.
+-FORMAT : ClimateByLatitudeLongitude latitude longitude
+-SAMPLE : ClimateByLatitudeLongitude 37.372 -120.038 
+-OUTPUT : Pressure: 30.02 Humidity: 64 Temperature: 62
+
+#Command -2 ClimateByLocationUnit
+-Specification : This command gets output the climate by different parameters like location and unit of climate.
+-FORMAT : ClimateByLocationUnit location unit(f/c)
+-SAMPLE : ClimateByLocationUnit Barrie f
+-OUTPUT : Pressure: 29.81 Humidity: 87 Temperature: 45
+
+#Command -3 ClimateByZipCity
+-Specification : This command gets output the climate by different parameters like location and zip code {US zip codes only}.
+-FORMAT : ClimateByZipCity zip location
+-SAMPLE : ClimateByZipCity 35004 Moody
+-OUTPUT : PHumidity=86 Wind speed=1.49
+
+#Command -4 IpGeoLocation
+-Specification : This command gets output the city and location details with the help of ip address and parameters which check is it on which city,province.
+-FORMAT : IpGeoLocation location(city,state)
+-SAMPLE : IpGeoLocation city
+-OUTPUT : Type of Ip address: IPv4 City: Gretna
+
+#Command -4 BestPlayer
+-Specification : This command gets output the name, nationality and weight of the best player of that particular season and league.
+-FORMAT : BestPlayer season league
+-SAMPLE : BestPlayer 2019 39
+-OUTPUT : Name: Jamie Richard Nationality: England Weight: 74 kg
+
+
+
+
+
